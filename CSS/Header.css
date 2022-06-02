@@ -1,0 +1,32 @@
+nav{
+  background-color: green;
+}
+#Selected{
+  background-color: #ed0b2d;
+}
+nav{
+  top:0;
+  left:0;
+  width:100%;
+
+  list-style-type: none;
+  overflow: hidden;
+  background: linear-gradient(to right, #191919, #121212);
+}
+nav li a{
+  color:white;
+  text-decoration: none;
+  float:right;
+  padding:7px 10px 7px 10px;
+  margin-Left:20px;
+}
+nav li a:hover{
+  background-color: #515151;
+}
+#headerLogo{
+  width:120px;
+  position:absolute;
+  z-index:1;
+  background-color:#191919;
+  padding:5px;
+}

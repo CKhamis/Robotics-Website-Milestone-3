@@ -1,0 +1,28 @@
+/*
+Color Palette
+
+White: #fff
+Red: #ed0b2d
+Grey 1: #515151
+
+Used for Navs
+Grey 1: #191919
+    v
+Grey 2: #121212
+
+*/
+
+body, html{
+  padding:0;
+  margin:0;
+}
+iframe{
+  border:none;
+  width:100%;
+}
+p, h1, h2, h3, h4, h5, body{
+  font-family: Verdana,sans-serif;
+}
+li{
+  list-style-type: none;
+}

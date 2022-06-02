@@ -1,0 +1,76 @@
+#header, #Footer{
+  border:none;
+  width:100%;
+  z-index: 999;
+}
+#Footer{
+  bottom:0;
+  height:200px
+}
+#quickLinksContainer{
+  position:relative;
+  margin-top:50px;
+  width:100%;
+  opacity:0;
+}
+#quickLinksContainer ul li{
+  width:24%;
+  float:right;
+  margin-right:1%;
+  background-repeat: no-repeat;
+  background-attachment: relative;
+  background-size:70%;
+  background-position: 160% 30%
+}
+#quickLinksContainer ul{
+  width:98%;
+  margin-left:1.5%;
+  padding:0;
+}
+#quickLinksContainer ul li h3 {
+  margin-left:3%;
+}
+#quickLinksContainer ul li p{
+  margin:3%;
+}
+
+/*Should I put these in?
+#Contact{
+  background-image: url('https://cdn4.iconfinder.com/data/icons/social-icons-6/40/phone-512.png');
+  background-repeat: no-repeat;
+  background-attachment: relative;
+  background-size:70%;
+  background-position: 160% 30%;
+}
+#Sponsor{
+  background-image: url('https://cdn4.iconfinder.com/data/icons/aiga-symbol-signs/441/aiga_cashier-512.png');
+  background-repeat: no-repeat;
+  background-attachment: relative;
+  background-size:70%;
+  background-position: 160% 30%;
+}
+#Donate{
+  background-image: url('https://cdns.iconmonstr.com/wp-content/assets/preview/2015/240/iconmonstr-handshake-10.png');
+  background-repeat: no-repeat;
+  background-attachment: relative;
+  background-size:70%;
+  background-position: 160% 30%;
+}*/
+
+
+
+
+#SS{
+  margin-top:50px;
+  margin-bottom:20px;
+  padding:0;
+  height:270px;
+  opacity:0;
+}
+@media (max-width: 980px) {
+  #Footer{
+    position:static;
+    height:1700px;
+    margin-top:300px;
+  }
+}

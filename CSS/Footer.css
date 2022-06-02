@@ -1,0 +1,47 @@
+h3, p, a{
+  color:white;
+  text-decoration: none;
+}
+li{
+  list-style-type: none;
+}
+#Footer{
+  width:100%;
+  bottom:0;
+  position: absolute;
+  padding:0;
+  margin: 0;
+  background: linear-gradient(to bottom left, #191919, #1c1c1c);
+}
+.FLI{
+  float:left;
+  width:23%;
+  margin-left:2%;
+  margin-bottom:50px;
+  opacity:0;
+}
+.listOfLinks{
+  padding:0;
+  margin:0;
+}
+.listOfLinks li{
+  padding:2px;
+}
+.listOfLinks li :hover{
+  color: #ed0b2d;
+}
+p{
+  font-size: 12px;
+}
+@media (max-width: 980px) {
+  .FLI{
+    width:94%;
+    margin-left:3%;
+  }
+  h3{
+    font-size: 50px;
+  }
+  .listOfLinks li{
+    padding: 10px 0 10px 0;
+  }
+}
